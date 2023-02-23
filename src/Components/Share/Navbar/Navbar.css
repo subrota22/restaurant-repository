@@ -1,0 +1,54 @@
+
+.navbar-nav , #navbarSupportedContent, ul li {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{margin: 24px 0 ;}
+.onlineOrder{
+ width: 150px;
+ padding: 10px;
+ border-radius: 25px;
+ border: none;
+ color: black;
+ font-size: 17px;
+ font-weight: bold;
+ margin: 4px 20px;
+ border: 2px solid rgb(97, 97, 100);
+ background-color: white;
+}
+.reservateButton{
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(255 118 41);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 4px 20px;  
+}
+
+.firstSectionTextStyle{margin-left: 10px;}
+/* RWD  */
+@media (max-width:1000px) {
+    .reservateButton , .onlineOrder{width: 80%; margin-left: 28%;}
+    .navLogo{margin-left: 345px;}
+    .firstSectionTextStyle{margin-left: 50%;}
+    .leftSideHomeSec{margin-left: 50%; margin-top: 15px; margin-bottom: 18px;}
+    .orderAppDiv{margin-left: 50%; margin-top: 30px; margin-bottom: 18px;}
+    .appStyle{margin: 28px 10px;}
+    .appHeadText{margin-left: -85px;}
+    .topSpaceOfHomeSecondDiv{margin: 12px 28%;}
+    .textStyle{margin-left: -10%; font-size: 40px; font-weight: bolder;}
+    .homeDivSectionSecond{width: 80%;}
+    .buttonGroup{margin-left: -20%; width: 100%;}
+    .secondBrowsForHome{margin-left: 45%; }
+}
+
+@media (max-width:500px) {
+    .reservateButton , .onlineOrder{width: 60%;}
+    .navbar{display: flex; flex-direction: column-reverse; color: black;}
+}
+
+

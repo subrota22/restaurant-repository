@@ -1,0 +1,68 @@
+.menuDivSpace {
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+
+.allMenu {
+    padding: 4px;
+    background-color: rgb(255 118 41);
+    height: 40px;
+    width: 85px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 20px;
+}
+
+.menuButton {
+    padding: 7px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 105px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid rgb(221, 204, 204);
+    margin: 10px 20px;
+}
+
+.menuButton:hover {
+    background-color: rgb(255 118 41);
+    border: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+.appDivStyle{
+    height: 87px;
+    width: 237px;
+    border: 2.4px solid rgb(160, 152, 152);
+    border-radius: 12px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appDivStyle:hover{
+    box-shadow:  0 0  5px 6px rgba(25, 25, 31, 0.2);
+    border: none;
+    transition-duration: 1s;
+}
+
+.textDivStyle{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 150px 0px;
+text-transform: uppercase;
+font-size: 42px;
+font-weight: bolder;
+color: rgb(255 118 41);
+}
+/* RWD */
+@media (max-width:1000px){
+.allMenuButton , .allDishesButton{margin-left:35% ;}
+}
+

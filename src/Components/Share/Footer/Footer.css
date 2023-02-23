@@ -1,0 +1,14 @@
+
+
+.FooterStart{ height:35px; width: 35px;}
+.pages li {list-style-type: none; text-align: start;}
+.utilities li {list-style-type: none; text-align: start;}
+.utilities li a  {text-decoration: none; color: rgb(134, 127, 127);}
+.pages li a  {text-decoration: none; color: rgb(134, 127, 127);}
+
+.footerDiv{
+ margin: 100px 3px;
+ padding: 24px 10px;
+}
+
+

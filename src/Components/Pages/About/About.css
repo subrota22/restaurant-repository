@@ -1,0 +1,142 @@
+.pizzaStyle {
+    height: 488px;
+    width: 442px;
+    border-radius: 21px;
+    position: absolute;
+    transform: translateX(780px) translateY(-170%);
+}
+
+.aboutFirstSection,
+.addSecondSectionTopSpace {
+    margin-top: 163px;
+}
+
+.textDivSpace {
+    margin-top: 140px;
+}
+
+.addTopSpaceForAboutTextDiv {
+    transform: translateY(-162px);
+}
+
+.backgroundFirstSectionDiv {
+    background-color: rgb(255 118 41);
+    height: 501px;
+    width: 74%;
+    margin-top: -100px;
+    position: relative;
+}
+
+.over_style_image {
+    position: absolute;
+    height: 380px;
+    width: 572px;
+    border-radius: 52px;
+    transform: translateX(100px) translateY(-147%);
+}
+
+.aboutAppsStyle {
+    width: 80%;
+    height: 135px;
+    border-radius: 22px;
+    border: 2px solid rgb(156, 147, 147);
+    padding-top: 46.3px;
+    background-color: white;
+    transform: translateX(100px) translateY(-37%);
+    position: absolute;
+}
+
+.aboutSecondSection {
+    height: 485px;
+    width: 485px;
+    border-radius: 28px;
+}
+
+.aboutSecondSectionSpace {
+    margin-top: 180px;
+}
+
+.aboutSecondSectionStyle {
+    background-color: rgba(243, 215, 188, 0.2);
+    padding: 54px 10px;
+}
+
+.positionOfPerson {
+    color: rgba(236, 209, 194, 0.1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teamPerson {
+    height: 305px;
+    width: 302px;
+    border-radius: 40px;
+    padding: 15px 2px;
+}
+
+.aboutTeamSection {
+    margin-top: 110px;
+}
+
+.teamPersonDiv:hover,
+.valueDiv:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 255, 0.49);
+    border-radius: 14px;
+    transition-duration: 2s;
+    transform: scale(1.1);
+}
+
+.valueDiv {
+    height: 310px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 2px;
+}
+
+.valueLogoImage {
+    text-align: center;
+    padding: 25px;
+}
+
+.aboutForthSectionDiv {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.pizzaImageStyle  {display: none;}
+
+.animateDivForAboutFirstSection > .over_style_image, .pizzaStyle , .aboutAppsStyle ,
+.aboutSecondSection{
+animation: boxshadow infinite linear forwards alternate 1s;
+}
+@keyframes boxshadow{
+    from{box-shadow: 0 0 3px 3px rgba(0, 0, 255, 0.5);}
+    to{box-shadow:  0 0 6px 6px rgba(0, 128, 0, 0.5) ;}
+}
+/* RWD  */
+
+@media (max-width:1000px) {
+    .over_style_image,
+    .pizzaStyle {
+        transform: translateX(0) translateY(0);
+    }
+    .backgroundFirstSectionDiv{background: white;}
+    .aboutAppsStyle{height: auto; width:auto; margin-top: -50%; margin-left: 20%;}
+    .pizzaStyle , .over_style_image{display: none;}
+    .dishesImages  > .pizzaImageStyle  {
+        display: block;
+        margin-top: 52px;
+        margin-bottom: 52px;
+        margin-left: 20%;
+        border-radius: 22px;
+    }
+    .pizzaImageStyle{height: 320px; width: 385px;}
+}
+
+@media (max-width:500px) {}

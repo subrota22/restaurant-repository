@@ -1,0 +1,541 @@
+/* first home section  */
+.textCommonColor {
+    color: rgb(255 118 41);
+}
+
+.leftFirstTextStyle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.DameText {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(106, 116, 116);
+    width: 305px;
+}
+
+.leftSideHomeSec {
+    background-color: rgb(255 118 41);
+    height: 550px;
+    width: 510px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.homeRightSideImage2 {
+    margin-left: -250px;
+    height: 450px;
+    width: 450px;
+    border-radius: 22px;
+    margin-top: 47.8px;
+}
+
+/* second home section  */
+
+.homeDivSectionSecond {
+    border: 2px solid rgb(156, 153, 153);
+    transform: scale(0.9);
+    border-radius: 18px;
+    padding: 6px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.homeDivSectionSecond>img {
+    display: flex;
+    margin: auto;
+    padding-top: 43px;
+}
+
+.homeDivSectionSecond:hover,
+.internalDivOfAbout:hover {
+    box-shadow: 0 0 8px 6px rgba(36, 33, 33, 0.2);
+    transition-duration: 1s;
+    border: none;
+}
+
+.topSpaceOfHomeSecondDiv {
+    margin-top: 120px;
+}
+
+/* third home section  */
+.aboutBackgroundOfHomePage {
+    height: 550px;
+    width: 450px;
+    border-radius: 25px;
+    background-image: url("https://i.ibb.co/W3sbtbx/about-Image.jpg");
+    background-size: cover;
+    padding-top: 358px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.internalDivOfAbout {
+    height: 290px;
+    width: 440px;
+    border-radius: 21px;
+    background-color: white;
+    padding-top: 28px;
+    margin-left: 210px;
+    position: absolute;
+    transform: translateY(310px) translateX(20px);
+    margin-bottom: 20px;
+}
+
+/* forth home section  */
+.secondBrowsForHome {
+    margin-bottom: 54px;
+}
+
+.foodImage {
+    border-radius: 22px;
+    height: 250px;
+    width: 250px;
+    margin-left: 50%;
+    position: relative;
+    margin-left: 2.2px;
+}
+
+.internalPrice {
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    transform: translateX(120px);
+    width: 125px;
+    background-color: white;
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.priceDiv {
+    cursor: pointer;
+    width: 280px;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.priceDiv:hover>.foodImage {
+    transform: scale(0.9);
+    transition-duration: 0.8s;
+    padding-right: 0px;
+    padding-top: 12px;
+    border-radius: 22px;
+
+}
+
+.priceDiv:hover .internalPrice {
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    width: 125px;
+    margin-left: 35px;
+    background-color: white;
+    animation: money infinite linear forwards alternate 1s;
+    border: 2px solid lime;
+}
+
+@keyframes money {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.priceDiv:hover,
+.internalDivOfBookTable:hover {
+    box-shadow: 0 0 8px 6px rgba(36, 33, 33, 0.2);
+    border-radius: 12px;
+    transition: box-shadow, border-radius 0.4s;
+}
+
+
+
+.rightDivFlex {
+    background-color: rgb(255 118 41);
+    height: 630px;
+    padding-top: 120px;
+    text-align: start;
+    width: 750px;
+}
+
+.pizzaImage {
+    height: 630px;
+    width: 100%;
+}
+
+.middleDivForUserFeedback {
+    border: 2px solid rgb(131, 121, 121);
+    height: 285px;
+    width: 558px;
+    border-radius: 10px;
+    padding-left: 28px;
+    padding-top: 32px;
+    padding-bottom: 4px;
+    padding-right: 30px;
+}
+
+
+.internalPrice {
+    position: absolute;
+    transform: translateY(10px) translateX(120px);
+}
+
+/* fifth home section  */
+.Arrow {
+    height: 57px;
+    width: 57px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgb(255 118 41);
+    margin-top: 10%;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.star {
+    height: 28px;
+    width: 28px;
+}
+
+.face1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.alignOfUserFeedbackText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sixth home section */
+.articlesImage {
+    height: 480px;
+    width: 520px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.RightArticlesStyle {
+    width: 520px;
+    margin: 0 80px;
+}
+
+.RightArticlesStyle:hover {
+    border: 2px solid lime;
+    border-radius: 18px;
+    transition-duration: 1s;
+}
+
+.RightArticlesStyle:hover {
+    transform: scale(0.9);
+}
+
+.articlesImageSize {
+    height: 200px;
+    width: 220px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.articleTextAndImage {
+    margin: 10px 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.articleTextAndImage:hover,
+.browsArticleButton:hover {
+    border: 2px solid lime;
+    border-radius: 18px;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    margin-top: 10px 10px;
+}
+
+.browsArticleButton {
+    padding: 15px;
+    width: 180px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(255 255 255);
+}
+
+.homeSixDiv {
+    background-color: rgb(255 249 243);
+    margin-top: 110px;
+    padding: 28px 8px;
+}
+
+/* home seven section */
+
+.BookTextStyle {
+    width: 520px;
+    margin: 0 80px;
+    padding: 10px 10px;
+}
+
+.bookLeftSideDiv {
+    background-color: rgb(255 118 41);
+    height: 955px;
+    width: 587px;
+    margin-right: -250px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.internalDivOfBookTable {
+    height: 750px;
+    width: 540px;
+    border-radius: 21px;
+    background-color: white;
+    padding-top: 28px;
+    margin-left: 210px;
+    position: absolute;
+    transform: translateY(110px) translateX(-400px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    border-radius: 21px;
+    background-color: white;
+    border: 1px solid rgb(145, 138, 138);
+    color: rgb(145, 138, 138);
+    padding: 6px 8px;
+}
+
+.textAreaStyle {
+    padding: 0 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home section eight  */
+
+.foodFollowImage {
+    height: 380px;
+    width: 380px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.foodFollowImageSize {
+    height: 175px;
+    width: 175px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.homeSixDiv {
+    margin: auto;
+}
+
+.addSpaceForFollowButton {
+    margin-top: -40px;
+}
+
+.carouselImage {
+    height: 420px;
+    border-radius: 20px;
+}
+
+.foodFollowImageSize:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    box-shadow: 0 0 6px 4px rgba(24, 24, 27, 0.3);
+}
+
+.foodFollowImage:hover {
+    transform: scale(0.9);
+    transition-duration: 1s;
+    box-shadow: 0 0 6px 4px rgba(25, 25, 31, 0.3);
+}
+
+.homeDivSectionSecond:hover {
+    transform: scale(0.8);
+    transition-duration: 1s;
+}
+
+/* rwd card */
+.responsiveCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+/* RWD  */
+
+@media (max-width:1000px) {
+    .carouselContainer {
+        margin-left: 24%;
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: -220px;
+    }
+
+    .fifthSection {
+        margin-left: 47%;
+    }
+
+    .pizzaDivStyle {
+        width: 100%;
+        margin-left: 190px;
+    }
+
+    .rightArrow,
+    .leftArrow {
+        width: 30px;
+        margin-top: -8px;
+    }
+
+    .Arrow {
+        width: auto;
+        padding: 20px;
+        margin-top: 60%;
+    }
+
+    .middleDivForUserFeedback {
+        width: 401px;
+        height: auto;
+    }
+
+    .homeSixDiv {
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .articlesImageSize {
+        width: 100%;
+        height: 258px;
+    }
+
+    .articlesImage {
+        width: 80%;
+    }
+
+    .RightArticlesStyle {
+        margin-left: 54px;
+        text-align: center;
+        transform: translateX(100px);
+    }
+
+    .articleTextAndImage {
+        text-align: center;
+    }
+
+    .textStyleSectionSix {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bookLeftSideDiv {
+        margin-left: 50%;
+        background-color: white;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .bookLeftSideDiv input {
+        width: 420px;
+        padding: 10px 5px;
+    }
+
+    .homeSectionEight {
+        margin: 150px 45px;
+        margin-left: 30%;
+    }
+
+    .foodFollowImageSize,
+    .foodFollowImage {
+        width: 100%;
+        height: 384px;
+        margin: 20px 10px;
+    }
+
+    .footerDiv {
+        margin-left: 20%;
+    }
+
+    .RightArticlesStyle {
+        margin-left: -10%;
+    }
+
+    .BookTextStyle {
+        margin-left: 30%;
+        font-size: larger;
+    }
+
+    .leftDivFlex .pizzaImage {
+        margin: 30px 6px;
+        margin-left: -28px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    .foodImage {
+        width: 100%;
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: -100px;
+    }
+
+    .internalPrice {
+        position: absolute;
+        transform: translateY(10px) translateX(20px);
+        animation: none;
+    }
+
+    .responsiveCard {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .foodImage {
+        width: 100%;
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: 100px; 
+    }
+
+    .internalPrice {
+        position: absolute;
+        transform: translateY(10px) translateX(20px);
+        animation: none;
+    }
+
+    .responsiveCard {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
